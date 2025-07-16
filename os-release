@@ -1,0 +1,11 @@
+NAME="Pardus The Archean Alpha 2"
+PRETTY_NAME="Pardus The Archean Alpha 2"
+ID=pardus
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/hexalantes/pardusthearchean/"
+DOCUMENTATION_URL="https://wiki.archlinux.org/"
+SUPPORT_URL="https://bbs.archlinux.org/"
+BUG_REPORT_URL="https://github.com/hexalantes/pardusthearchean/"
+PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+LOGO=pardus-logo
