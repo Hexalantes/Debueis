@@ -1,0 +1,2 @@
+# pardusthearchean
+I AM MFINGLY REBUILDING THE PARDUS LINUX
