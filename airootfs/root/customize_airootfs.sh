@@ -3,8 +3,8 @@
 useradd -m liveuser
 echo "liveuser:live" | chpasswd
 
-pacman -U --no-confirm /etc/pardusinstaller/ckbcomp-1.239-1-any.pkg.tar.zst
-pacman -U --no-confirm /etc/pardusinstaller/calamares-git-3.3.14.r25.g95aa33f-1-x86_64.pkg.tar.zst
+pacman -U --noconfirm /etc/pardusinstaller/ckbcomp-1.239-1-any.pkg.tar.zst
+pacman -U --noconfirm /etc/pardusinstaller/calamares-git-3.3.14.r25.g95aa33f-1-x86_64.pkg.tar.zst
 
 echo "liveuser ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/liveuser
 chmod 440 /etc/sudoers.d/liveuser
