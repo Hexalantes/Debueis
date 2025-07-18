@@ -1,5 +1,5 @@
 # Pardus The Archean Beta 1
-that's the releng
+that's the releng, not compiled
 
 known issues are:
 
