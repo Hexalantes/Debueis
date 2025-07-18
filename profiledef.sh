@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="pardusthearchean"
-iso_label="PARDUS_TA_BETA_1"
+iso_name="Pardus The Archean"
+iso_label="PARDUS_THE_ARCHEAN_B1"
 iso_publisher="Hexalantes & Heizen <https://github.com/hexalantes>"
 iso_application="Pardus The Archean Live/Rescue DVD"
-iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
+iso_version="Beta 1"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
