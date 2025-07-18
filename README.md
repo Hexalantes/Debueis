@@ -1,4 +1,4 @@
-# Pardus The Archean
+# Pardus The Archean Beta 1
 that's the releng
 
 known issues are:
