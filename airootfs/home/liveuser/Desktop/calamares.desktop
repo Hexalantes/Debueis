@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Pardus The Archean Beta 1 Installer
+Exec=sudo calamares
+Terminal=false
+Categories=System;
