@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ln -sf /usr/share/zoneinfo/UTC /etc/localtime
+
 useradd -m liveuser
 echo "liveuser:1234" | chpasswd
 
