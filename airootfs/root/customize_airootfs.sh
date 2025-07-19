@@ -1,7 +1,7 @@
 #!/bin/bash
 
 useradd -m liveuser
-echo "liveuser:live" | chpasswd
+echo "liveuser:1234" | chpasswd
 
 bsdtar -xpf /etc/pardusinstaller/ckbcomp-1.239-1-any.pkg.tar.zst -C /
 bsdtar -xpf /etc/pardusinstaller/calamares-git-3.3.14.r25.g95aa33f-1-x86_64.pkg.tar.zst -C /
@@ -9,7 +9,26 @@ bsdtar -xpf /etc/pardusinstaller/calamares-git-3.3.14.r25.g95aa33f-1-x86_64.pkg.
 echo "liveuser ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/liveuser
 chmod 440 /etc/sudoers.d/liveuser
 
+mkdir -p /home/liveuser/Desktop
+cat <<EOF > /home/liveuser/Desktop/calamares.desktop
+[Desktop Entry]
+Type=Application
+Version=Beta
+Name=Install Pardus The Archean
+GenericName=Pardus The Archean Installer
+Keywords=pardus;system;installer;
+TryExec=calamares
+Exec=pkexec calamares
+Comment=Calamares — Pardus The Archean Installer
+Icon=pardus-logo
+Terminal=false
+StartupNotify=true
+Categories=Qt;System;
+X-AppStream-Ignore=true
+EOF
+
 mkdir -p /etc/sddm.conf.d
+
 cat <<EOF > /etc/sddm.conf.d/autologin.conf
 [Autologin]
 User=liveuser
