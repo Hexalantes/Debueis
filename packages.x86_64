@@ -52,6 +52,7 @@ lftp
 libfido2
 libusb-compat
 linux
+linux-headers
 linux-atm
 linux-firmware
 linux-firmware-marvell
@@ -166,3 +167,10 @@ qt6-translations
 perl
 xkeyboard-config
 os-prober
+archlinux-keyring
+libreoffice-still
+okular
+vlc
+jre8-openjdk
+gwenview
+kolourpaint
