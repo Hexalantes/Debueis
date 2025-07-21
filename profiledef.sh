@@ -2,10 +2,10 @@
 # shellcheck disable=SC2034
 
 iso_name="Pardus The Archean"
-iso_label="PARDUS_THE_ARCHEAN_B1"
+iso_label="PARDUS_THE_ARCHEAN_B2"
 iso_publisher="Hexalantes & Heizen <https://github.com/hexalantes>"
 iso_application="Pardus The Archean Live/Rescue DVD"
-iso_version="Beta 1"
+iso_version="Beta 2"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
