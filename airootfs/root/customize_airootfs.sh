@@ -47,8 +47,8 @@ systemctl enable NetworkManager
 rm -f /etc/lsb-release
 cat <<EOF > /etc/lsb-release
 DISTRIB_ID="Pardus The Archean"
-DISTRIB_RELEASE="Beta 1"
-DISTRIB_DESCRIPTION="Pardus The Archean Beta 1"
+DISTRIB_RELEASE="Beta 2"
+DISTRIB_DESCRIPTION="Pardus The Archean Beta 2"
 EOF
 
 mkdir -p /home/liveuser/.config/autostart
@@ -64,3 +64,6 @@ EOF
 
 chown -R liveuser:liveuser /home/liveuser/.config
 chmod 644 /home/liveuser/.config/autostart/calamares.desktop
+
+pacman-key --init
+pacman-key --populate archlinux
