@@ -5,8 +5,9 @@ ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 useradd -m liveuser
 echo "liveuser:1234" | chpasswd
 
-bsdtar -xpf /etc/pardusinstaller/ckbcomp-1.239-1-any.pkg.tar.zst -C /
-bsdtar -xpf /etc/pardusinstaller/calamares-git-3.3.14.r25.g95aa33f-1-x86_64.pkg.tar.zst -C /
+bsdtar -xpf /etc/parduspkg/ckbcomp-1.239-1-any.pkg.tar.zst -C /
+bsdtar -xpf /etc/parduspkg/calamares-git-3.3.14.r25.g95aa33f-1-x86_64.pkg.tar.zst -C /
+bsdtar -xpf /etc/parduspkg/neofetch-git-7.1.0.r166.gccd5d9f5-1-any.pkg.tar.zst -C /
 
 echo "liveuser ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/liveuser
 chmod 440 /etc/sudoers.d/liveuser
