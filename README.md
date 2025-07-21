@@ -1,4 +1,4 @@
-# Pardus The Archean Beta 1
+# Pardus The Archean Beta 2
 that's the releng, not compiled.
 
 ! This project is still in Beta phase and available for testing purposes, use at your own risk !
@@ -9,7 +9,7 @@ cannot install on bios/legacy/csm hardware, it only works on uefi; you can try t
 Pardus name rights belong to TÜBİTAK.
 Much thanks to the Arch Linux community for providing archiso.
 
-liveuser password is 1234
+liveuser password is pardus
 
 # License
 
