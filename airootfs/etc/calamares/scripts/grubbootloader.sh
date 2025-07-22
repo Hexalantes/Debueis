@@ -6,7 +6,7 @@ if [ -d /sys/firmware/efi ]; then
     efi_part=$(lsblk -dpno NAME,FSTYPE,MOUNTPOINT | grep vfat | grep "$disk" | awk '{print $1}' | head -n1)
 
     if [ -z "$efi_part" ]; then
-      echo "EFI partition bulunamadı!"
+      echo "There's no EFI partition!"
       exit 1
     fi
 
