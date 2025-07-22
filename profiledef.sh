@@ -6,7 +6,7 @@ iso_label="PARDUS_THE_ARCHEAN_B2"
 iso_publisher="Hexalantes & Heizen <https://github.com/hexalantes>"
 iso_application="Pardus The Archean Live/Rescue DVD"
 iso_version="Beta 2"
-install_dir=""
+install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
            'uefi-ia32.systemd-boot.esp' 'uefi-x64.systemd-boot.esp'
