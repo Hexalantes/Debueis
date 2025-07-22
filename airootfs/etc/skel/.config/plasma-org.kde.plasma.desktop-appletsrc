@@ -23,7 +23,7 @@ DialogWidth=720
 positions={"1280x800":[]}
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Pardus/
+Image=file:///usr/share/wallpapers/Pardus/contents/images/3840x2160.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
