@@ -3,7 +3,7 @@
 ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
 useradd -m liveuser
-echo "liveuser:1234" | chpasswd
+echo "liveuser:pardus" | chpasswd
 
 bsdtar -xpf /etc/parduspkg/ckbcomp-1.239-1-any.pkg.tar.zst -C /
 bsdtar -xpf /etc/parduspkg/calamares-git-3.3.14.r25.g95aa33f-1-x86_64.pkg.tar.zst -C /
