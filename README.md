@@ -1,4 +1,4 @@
-# Pardus The Archean Beta 2
+# Pardus The Archean Beta 2 "Pure"
 that's the releng, not compiled.
 
 ! This project is still in Beta phase and available for testing purposes, use at your own risk !
