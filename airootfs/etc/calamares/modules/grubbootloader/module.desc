@@ -1,0 +1,4 @@
+---
+name: customscripts
+type: shellprocess
+interface: none
