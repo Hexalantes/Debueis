@@ -11,7 +11,7 @@ liveuser password is zen
 # Release Notes
 - Additional packages (LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8) are removed.
 - Multilib repository added to pacman.
-- Much Xorg packages are pre-installed now.
+- Some xorg packages  are pre-installed now.
 - "Plasma (X11)" added to SDDM sessions.
 - New desktop wallpaper.
 - Kernel swapped from "linux" to "linux-zen".
