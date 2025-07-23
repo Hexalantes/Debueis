@@ -32,7 +32,7 @@ Presentation
 
         Image {
             id: background
-            source: "welcome2.png"
+            source: "logo1.png"
             width: 200; height: 200
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
@@ -54,7 +54,7 @@ Presentation
 
         Image {
             id: background
-            source: "welcome2.png"
+            source: "logo1.png"
             width: 200; height: 200
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
@@ -77,7 +77,7 @@ Presentation
 
         Image {
             id: background
-            source: "welcome2.png"
+            source: "logo1.png"
             width: 200; height: 200
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
