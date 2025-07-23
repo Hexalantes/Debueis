@@ -3,7 +3,7 @@ that's the releng, not compiled.
 
 ! This project is still in Beta phase and available for testing purposes, use at your own risk !
 
-Pardus name rights belong to TÜBİTAK.
+NOTE: Pardus name rights belong to TÜBİTAK.
 Much thanks to the Arch Linux community for providing archiso.
 
 liveuser password is pardus
