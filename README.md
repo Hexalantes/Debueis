@@ -10,6 +10,7 @@ liveuser password is pardus
 
 # Release Notes
 - Additional packages (LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8) are removed.
+- Multilib repository added to pacman.
 - Much Xorg packages are pre-installed now.
 - "Plasma (X11)" added to SDDM sessions.
 - New desktop wallpaper.
