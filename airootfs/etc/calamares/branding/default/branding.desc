@@ -202,7 +202,7 @@ style:
 # To configure a QML file, list a single filename:
 #   slideshow:               "show.qml"
 # To configure images, like the filenames (here, as an inline list):
-#   slideshow: [ "/etc/calamares/slideshow/0.png", "/etc/logo.png" ]
+slideshow: [ "/etc/calamares/slideshow/0.png", "/etc/calamares/branding/default/logo1.png" ]
 slideshow:               "show.qml"
 
 # There are two available APIs for a QML slideshow:
