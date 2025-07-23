@@ -21,12 +21,12 @@ liveuser password is zen
 # Known Issues
 -Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
 Legacy BIOS/CSM installation instructions are below here.
-  - 1st, delete "- grubcfg" and "- bootloader" from /etc/calamares/settings.conf.
-  - 2nd, install the system normally.
-  - 3rd, mount your hard drive to /mnt (sudo mount /dev/sdX /mnt) (replace /dev/sdX with your drive, e.g. /dev/sda).
-  - 4th, chroot to your hard drive (sudo arch-chroot /mnt).
-  - 5th, run "grub-install /dev/sdX" (replace /dev/sdX with your drive, e.g. /dev/sda).
-  - 6th, run "grub-mkconfig -o /boot/grub/grub.cfg
+  - delete "- grubcfg" and "- bootloader" from /etc/calamares/settings.conf.
+  - install the system normally.
+  - mount your hard drive to /mnt (sudo mount /dev/sdX /mnt) (replace /dev/sdX with your drive, e.g. /dev/sda).
+  - chroot to your hard drive (sudo arch-chroot /mnt).
+  - run "grub-install /dev/sdX" (replace /dev/sdX with your drive, e.g. /dev/sda).
+  - run "grub-mkconfig -o /boot/grub/grub.cfg
 
 # License
 
