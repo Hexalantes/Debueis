@@ -1,4 +1,4 @@
-# Pardus The Archean Beta 2 "Pure"
+# Pardus The Archean Beta 3 "Zen"
 that's the releng, not compiled.
 
 ! This project is still in Beta phase and available for testing purposes, use at your own risk !
@@ -9,13 +9,13 @@ Much thanks to the Arch Linux community for providing archiso.
 liveuser password is pardus
 
 # Release Notes
-- Asset Update, there's a new background and a new logo.
-- pacman-key issue is fixed.
-- Calamares welcome image is changed.
-- Archiso /etc/motd issue is fixed.
-- LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8 are pre-installed now.
-- "calamares.desktop" is removed from /usr/share/applications but Calamares binary is not removed.
-- liveuser password is changed from "1234" to "pardus".
+- Additional packages (LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8) are removed.
+- Much Xorg packages are pre-installed now.
+- "Plasma (X11)" added to SDDM sessions.
+- New desktop wallpaper.
+- Kernel swapped from "linux" to "linux-zen".
+- liveuser password changed from "pardus" to "zen".
+- In Calamares, "Autologin" and "Require a Strong Password" are removed from user configuration page.
   
 # Known Issues
 -Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
