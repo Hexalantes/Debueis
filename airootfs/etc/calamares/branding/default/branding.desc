@@ -127,7 +127,7 @@ strings:
     shortVersion:        Beta 3
     versionedName:       Pardus The Archean Beta 3
     shortVersionedName:  Pardus The Archean Beta 3
-    bootloaderEntryName: Pardus The Archean "Zen"
+    bootloaderEntryName: Pardus The Archean Codename Zen
     productUrl:          https://github.com/hexalantes/pardusthearchean
     supportUrl:          https://wiki.archlinux.org
     knownIssuesUrl:      https://github.com/hexalantes/pardusthearchean
@@ -202,7 +202,7 @@ style:
 # To configure a QML file, list a single filename:
 #   slideshow:               "show.qml"
 # To configure images, like the filenames (here, as an inline list):
-slideshow: [ "/etc/calamares/branding/default/logo1.png" ]
+slideshow: [ "/etc/calamares/branding/default/welcome2.png" ]
 slideshow:               "show.qml"
 
 # There are two available APIs for a QML slideshow:
