@@ -172,7 +172,7 @@ gwenview
 kolourpaint
 xorg-server
 xorg-xinit
-xorg-apps 
+xorg
 sddm-kcm
 xdg-desktop-portal-kde
 xorg-xrandr
