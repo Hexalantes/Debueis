@@ -16,7 +16,7 @@ liveuser password is pardus
 - Kernel swapped from "linux" to "linux-zen".
 - liveuser password changed from "pardus" to "zen".
 - In Calamares, "Autologin" and "Require a Strong Password" are removed from user configuration page.
-  
+- Paru is pre-installed now.
 # Known Issues
 -Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
 Legacy BIOS/CSM installation instructions are below here.
@@ -26,8 +26,6 @@ Legacy BIOS/CSM installation instructions are below here.
   4th, chroot to your hard drive (sudo arch-chroot /mnt).
   5th, run "grub-install /dev/sdX" (replace /dev/sdX with your drive, e.g. /dev/sda).
   6th, run "grub-mkconfig -o /boot/grub/grub.cfg
-
-
 
 # License
 
