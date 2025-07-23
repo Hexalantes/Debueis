@@ -129,7 +129,6 @@ xdg-utils
 xfsprogs
 xl2tpd
 zsh
-sddm
 plasma-meta
 konsole
 dolphin
@@ -156,7 +155,6 @@ python-jsonschema
 python-yaml
 qt6-svg
 solid
-squashfs-tools
 yaml-cpp
 boost
 extra-cmake-modules
