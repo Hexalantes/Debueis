@@ -170,3 +170,5 @@ os-prober
 archlinux-keyring
 gwenview
 kolourpaint
+xorg-server
+xorg-xinit
