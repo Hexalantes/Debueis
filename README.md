@@ -19,7 +19,7 @@ liveuser password is zen
 - In Calamares, "Autologin" and "Require a Strong Password" are removed from user configuration page.
   
 # Known Issues
--Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
+Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
 Legacy BIOS/CSM installation instructions are below here.
   - delete "- grubcfg" and "- bootloader" from /etc/calamares/settings.conf.
   - install the system normally.
