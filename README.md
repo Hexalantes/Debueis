@@ -17,7 +17,7 @@ liveuser password is zen
 - Kernel swapped from "linux" to "linux-zen".
 - liveuser password changed from "pardus" to "zen".
 - In Calamares, "Autologin" and "Require a Strong Password" are removed from user configuration page.
-- Paru is pre-installed now.
+  
 # Known Issues
 -Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
 Legacy BIOS/CSM installation instructions are below here.
