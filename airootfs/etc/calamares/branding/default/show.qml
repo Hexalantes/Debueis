@@ -42,8 +42,8 @@ Presentation
             anchors.top: background.bottom
             text: "  <br/>"+
                   "  <br/>"+
-                  "You are installing Pardus The Archean right now.<br/>"+
-                  "Pardus name rights belongs to TÜBİTAK."
+                  "  <br/>"+
+                  "  "
             wrapMode: Text.WordWrap
             width: presentation.width
             horizontalAlignment: Text.Center
@@ -64,8 +64,8 @@ Presentation
             anchors.top: background.bottom
             text: "  <br/>"+
                   "  <br/>"+
-                  "You are installing Pardus The Archean right now.<br/>"+
-                  "Pardus name rights belongs to TÜBİTAK."
+                  "  <br/>"+
+                  "  "
             wrapMode: Text.WordWrap
             width: presentation.width
             horizontalAlignment: Text.Center
@@ -87,8 +87,8 @@ Presentation
             anchors.top: background.bottom
             text: "  <br/>"+
                   "  <br/>"+
-                  "You are installing Pardus The Archean right now.<br/>"+
-                  "Pardus name rights belongs to TÜBİTAK."
+                  "  <br/>"+
+                  "  "
             wrapMode: Text.WordWrap
             width: presentation.width
             horizontalAlignment: Text.Center
