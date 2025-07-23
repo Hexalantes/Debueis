@@ -123,9 +123,9 @@ navigation: widget
 strings:
     productName:         Pardus The Archean
     shortProductName:    Pardus
-    version:             Beta 3
+    version:             Beta 3 Codename Zen
     shortVersion:        Beta 3
-    versionedName:       Pardus The Archean Beta 3
+    versionedName:       Pardus The Archean Beta 3 Codename Zen
     shortVersionedName:  Pardus The Archean Beta 3
     bootloaderEntryName: Pardus The Archean Codename Zen
     productUrl:          https://github.com/hexalantes/pardusthearchean
