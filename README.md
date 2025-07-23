@@ -16,7 +16,7 @@ liveuser password is zen
 - New desktop wallpaper.
 - Kernel swapped from "linux" to "linux-zen".
 - liveuser password changed from "pardus" to "zen".
-- In Calamares, "Autologin" and "Require a Strong Password" are removed from user configuration page.
+- In Calamares, "Autologin" and "Require a Strong Password" options are removed from user configuration page.
   
 # Known Issues
 Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
