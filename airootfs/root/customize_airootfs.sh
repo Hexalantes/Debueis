@@ -35,7 +35,7 @@ mkdir -p /etc/sddm.conf.d
 cat <<EOF > /etc/sddm.conf.d/autologin.conf
 [Autologin]
 User=liveuser
-Session=plasma.desktop
+Session=plasma-x11
 
 [General]
 Numlock=on
