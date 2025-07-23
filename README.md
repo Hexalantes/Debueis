@@ -6,7 +6,7 @@ that's the releng, not compiled.
 NOTE: Pardus name rights belong to TÜBİTAK.
 Much thanks to the Arch Linux community for providing archiso.
 
-liveuser password is pardus
+liveuser password is zen
 
 # Release Notes
 - Additional packages (LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8) are removed.
