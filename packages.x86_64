@@ -168,12 +168,11 @@ os-prober
 archlinux-keyring
 gwenview
 kolourpaint
-xorg
 sddm-kcm
 xdg-desktop-portal-kde
 kwin-x11
 xdg-desktop-portal
 xorg-server
 xorg-xinit
-xorg-xrandr 
+xorg-xrandr
 xorg-xinput
