@@ -1,4 +1,4 @@
-📦 Pardus The Archean – Milestone 1
+# Pardus The Archean Milestone 1
 
 This is the releng configuration, not a compiled ISO.
 
