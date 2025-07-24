@@ -164,7 +164,7 @@ kde-gtk-config
 kdeplasma-addons
 breeze
 sddm
-firefox
+chromium
 networkmanager
 boost-libs
 hwinfo
