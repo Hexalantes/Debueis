@@ -1,4 +1,4 @@
-# Pardus The Archean Beta 4
+# Pardus The Archean Milestone 1
 that's the releng, not compiled.
 
 ! This project is still in Beta phase and available for testing purposes, use at your own risk !
