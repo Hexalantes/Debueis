@@ -3,8 +3,9 @@ that's the releng, not compiled.
 
 ! This project is still in Beta phase and available for testing purposes, use at your own risk !
 
-NOTE: Pardus name rights belong to TÜBİTAK.
-Much thanks to the Arch Linux community for providing archiso.
+**Not:** "Pardus" name and logos and their rights are owned by TÜBİTAK. That is NOT an official release of Pardus GNU/Linux from TÜBİTAK and https://pardus.org.tr, that is a PERSONAL PROJECT for building Pardus GNU/Linux based on Arch Linux.
+
+Also much thanks to the Arch Linux community for providing archiso.
 
 liveuser password is zen
 
