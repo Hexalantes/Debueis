@@ -1,12 +1,13 @@
-# Pardus The Archean Milestone 1
-that's the releng, not compiled.
+📦 Pardus The Archean – Milestone 1
 
-! This project is still in Beta phase and available for testing purposes, use at your own risk !
+This is the releng configuration, not a compiled ISO.
 
-**NOTE:** "Pardus" name and logos and their rights are owned by TÜBİTAK. That is NOT an official release of Pardus GNU/Linux from TÜBİTAK and https://pardus.org.tr, this is a PERSONAL PROJECT for building Pardus GNU/Linux based on Arch Linux.
+This project is currently in Beta phase and intended for testing purposes only. Use at your own risk.
 
-Also much thanks to the Arch Linux community for providing archiso.
+**Disclaimer:** The "Pardus" name, logo, and related rights belong to TÜBİTAK. This is not an official release of Pardus GNU/Linux from TÜBİTAK or https://pardus.org.tr.
+This is a personal and unofficial project, aimed at recreating a Pardus-like system based on Arch Linux for educational and experimental purposes.
 
+Special thanks to the Arch Linux community for providing the archiso tools used in this project.
 liveuser password is zen
 
 # Release Notes
