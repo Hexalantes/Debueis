@@ -3,7 +3,7 @@
 
 iso_name="Pardus The Archean"
 iso_label="PARDUS_THE_ARCHEAN_M1"
-iso_publisher="Hexalantes & Heizen <https://github.com/hexalantes>"
+iso_publisher="Archean Exercitus <https://github.com/hexalantes>"
 iso_application="Pardus The Archean Live/Rescue DVD"
 iso_version="Milestone 1"
 install_dir="arch"
