@@ -4,8 +4,8 @@ This is the releng configuration, not a compiled ISO.
 
 This project is currently in Beta phase and intended for testing purposes only. Use at your own risk.
 
-**Disclaimer:** The "Pardus" name, logo, and related rights belong to TÜBİTAK. This is not an official release of Pardus GNU/Linux from TÜBİTAK or https://pardus.org.tr.
-This is a personal and unofficial project, aimed at recreating a Pardus-like system based on Arch Linux for educational and experimental purposes.
+**Disclaimer:** The "Pardus" name, logo, and related rights belong to TÜBİTAK. This is NOT an official release of Pardus GNU/Linux from TÜBİTAK or https://pardus.org.tr.
+This is a PERSONAL and UNOFFICIAL project, aimed at recreating a Pardus-like system based on Arch Linux for educational and experimental purposes.
 
 Special thanks to the Arch Linux community for providing the archiso tools used in this project.
 liveuser password is zen
