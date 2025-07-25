@@ -2,7 +2,7 @@
 set -e
 
 if [[ $# -eq 0 ]]; then
-  echo "XPM, Xenon is not a Package Manager"
+  echo "XPM - XPM is not a Package Manager"
   echo "-Hexalantes"
   exit 0
 fi
@@ -60,9 +60,6 @@ install_local() {
 
 usage() {
   echo ""
-  echo "Xenon Package Manager by Hexalantes"
-  echo "No, it's definitely not; it's just an AUR helper that works well with pacman too."
-  echo ""
   echo "Usage:"
   echo "  xpm <command> [options] [package(s)/file(s)]"
   echo ""
@@ -109,7 +106,7 @@ usage() {
   echo "  xpm install -f ./path/to/pkg.tar.zst"
   echo "  xpm upgrade"
   echo ""
-  echo "XPM, Xenon is not a Package Manager"
+  echo "XPM - XPM is not a Package Manager"
   echo "-Hexalantes"
   echo ""
   exit 0
