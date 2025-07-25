@@ -2,10 +2,12 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
+awk
 b43-fwcutter
 bash
 bzip2
 coreutils
+curl
 file
 filesystem
 findutils
@@ -36,6 +38,7 @@ bolt
 brltty
 broadcom-wl-dkms
 btrfs-progs
+bsdtar
 clonezilla
 cloud-init
 cryptsetup
@@ -146,6 +149,7 @@ usbutils
 vim
 virtualbox-guest-utils-nox
 vpnc
+wget
 wireless-regdb
 wireless_tools
 wpa_supplicant
