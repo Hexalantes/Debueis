@@ -12,8 +12,8 @@ liveuser password is zen
 
 # Release Notes
 - Additional packages (LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8) are added back.
-- Super simple shell-based AUR and Pacman helper XPM (Xenon Package Manager) added. ("xpm help" or "xpm -h" for help)
-  
+- Simple shell-based AUR and Pacman helper XPM (Xenon Package Manager) added. (Type "xpm help" or "xpm -h" for help.)
+- 
 # Known Issues
 Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
 Legacy BIOS/CSM installation instructions are below here.
