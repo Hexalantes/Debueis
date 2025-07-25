@@ -71,7 +71,8 @@ usage() {
   echo "  remove, delete      Uninstall package(s)"
   echo "  upgrade             Full upgrade (pacman -Syu) or upgrade specific package(s)"
   echo "  update              Sync package database (pacman -Sy)"
-  echo ""
+  echo "  installaur          Install package(s) from only AUR"
+  echo "  installarch         Install package(s) from only official repository."
   echo "Search & Info:"
   echo "  search <pkg>        Search in official repos"
   echo "  search <pkg> -a     Search in AUR"
@@ -284,7 +285,7 @@ case "$CMD" in
     sudo pacman -Qk "${PACKAGES[@]}"
     ;;
 
-  help|usage)
+  help|usage|-h)
     usage
     ;;
   *)
