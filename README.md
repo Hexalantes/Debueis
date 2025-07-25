@@ -11,14 +11,8 @@ Special thanks to the Arch Linux community for providing the archiso tools used 
 liveuser password is zen
 
 # Release Notes
-- Additional packages (LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8) are removed.
-- Multilib repository added to pacman.
-- Some xorg packages  are pre-installed now.
-- "Plasma (X11)" added to SDDM sessions.
-- New desktop wallpaper.
-- Kernel swapped from "linux" to "linux-zen".
-- liveuser password changed from "pardus" to "zen".
-- In Calamares, "Autologin" and "Require a Strong Password" options are removed from user configuration page.
+- Additional packages (LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8) are added back.
+- Super simple shell-based AUR and Pacman helper XPM (Xenon Package Manager) added. ("xpm help" or "xpm -h" for help)
   
 # Known Issues
 Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
