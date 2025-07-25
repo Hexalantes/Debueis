@@ -75,6 +75,7 @@ usage() {
   echo "Core Commands:"
   echo "  install, add        Install package(s) from repo or AUR"
   echo "    -f, --file        Install local .pkg.tar.zst package file(s)"
+  echo "    -a, --aur         Install package(s) from only AUR.
   echo "  remove, delete      Uninstall package(s)"
   echo "  upgrade             Full upgrade (pacman -Syu) or upgrade specific package(s)"
   echo "  update              Sync package database (pacman -Sy)"
@@ -130,6 +131,22 @@ case "$CMD" in
       shift
       for pkgfile in "$@"; do
         install_local "$pkgfile"
+      done
+    elif [[ "$1" == "-a" || "$1" == "--aur" ]]; then
+      shift
+      for pkg in "$@"; do
+        echo "Directly installing from AUR: $pkg"
+        if [[ $EUID -eq 0 ]]; then
+          echo "AUR packages cannot be installed as root. Please run as a regular user." >&2
+          exit 1
+        fi
+        aur_install "$pkg"
+      done
+    elif [[ "$1" == "-or" || "$1" == "--repo" ]]; then
+      for pkg in "${PACKAGES[@]}"; do
+        echo "Trying to install package '$pkg' from official repos..."
+        if sudo pacman -S --noconfirm "$pkg"; then
+          echo "Package '$pkg' installed successfully from official repo."
       done
     else
       for pkg in "${PACKAGES[@]}"; do
