@@ -6,6 +6,13 @@ if [[ $# -eq 0 ]]; then
   exit 0
 fi
 
+if [[ "$1" == "-i" ]]; then CMD="install"; shift; fi
+if [[ "$1" == "-r" ]]; then CMD="remove"; shift; fi
+if [[ "$1" == "-U" ]]; then CMD="upgrade"; shift; fi
+if [[ "$1" == "-u" ]]; then CMD="update"; shift; fi
+if [[ "$1" == "-s" ]]; then CMD="search"; shift; fi
+if [[ "$1" == "-h" ]]; then CMD="help"; shift; fi
+
 CMD="$1"
 shift
 PACKAGES=("$@")
