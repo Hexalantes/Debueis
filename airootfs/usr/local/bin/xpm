@@ -2,7 +2,8 @@
 set -e
 
 if [[ $# -eq 0 ]]; then
-  echo "Xenon Package Manager by Hexalantes - no, it's definitely not; it's just an aur helper that works well with pacman too"
+  echo "XPM, Xenon is not a Package Manager"
+  echo "-Hexalantes"
   exit 0
 fi
 
@@ -108,7 +109,8 @@ usage() {
   echo "  xpm install -f ./path/to/pkg.tar.zst"
   echo "  xpm upgrade"
   echo ""
-  echo "That's all. Made by Hexalantes."
+  echo "XPM, Xenon is not a Package Manager"
+  echo "-Hexalantes"
   echo ""
   exit 0
 }
