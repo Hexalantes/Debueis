@@ -123,11 +123,11 @@ navigation: widget
 strings:
     productName:         Pardus The Archean
     shortProductName:    Pardus
-    version:             Beta 3 Codename Zen
-    shortVersion:        Beta 3
-    versionedName:       Pardus The Archean Beta 3 Codename Zen
-    shortVersionedName:  Pardus The Archean Beta 3
-    bootloaderEntryName: Pardus The Archean Codename Zen
+    version:             Milestone 1
+    shortVersion:        Beta 4
+    versionedName:       Pardus The Archean Milestone 1
+    shortVersionedName:  Pardus The Archean Beta 4
+    bootloaderEntryName: Pardus The Archean
     productUrl:          https://github.com/hexalantes/pardusthearchean
     supportUrl:          https://wiki.archlinux.org
     knownIssuesUrl:      https://github.com/hexalantes/pardusthearchean
@@ -163,10 +163,10 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "logo1.png"
-    productLogo:         "logo1.png"
+    productIcon:         "logo.png"
+    productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "welcome2.png"
+    productWelcome:      "logo.png"
 
 # Colors for text and background components.
 #
@@ -202,7 +202,7 @@ style:
 # To configure a QML file, list a single filename:
 #   slideshow:               "show.qml"
 # To configure images, like the filenames (here, as an inline list):
-slideshow: [ "/etc/calamares/branding/default/logo1.png" ]
+slideshow: [ "/etc/calamares/branding/default/logo.png" ]
 slideshow:               "show.qml"
 
 # There are two available APIs for a QML slideshow:
