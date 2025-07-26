@@ -42,7 +42,6 @@ def install_grub_bios():
     device = libcalamares.globalstorage.value("bootLoaderInstallPath")
 
     if not device:
-        # Fallback: kök bölümden fiziksel diski bul
         root_partition = libcalamares.globalstorage.value("rootPartition")
         if root_partition:
             try:
