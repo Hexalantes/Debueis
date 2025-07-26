@@ -26,6 +26,8 @@ Categories=Qt;System;
 X-AppStream-Ignore=true
 EOF
 
+rm -f /usr/lib/calamares/modules/bootloader/main.py
+mv /etc/calamares/main.py /usr/lib/calamares/modules/bootloader/main.py
 mkdir -p /etc/sddm.conf.d
 
 cat <<EOF > /etc/sddm.conf.d/autologin.conf
