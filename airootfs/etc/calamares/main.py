@@ -27,9 +27,10 @@ def install_grub_uefi(efi_directory):
     cmd = [
         grub_install,
         "--target=x86_64-efi",
-        f"--efi-directory=/boot/efi",
+        "--efi-directory=/boot/efi",
         f"--bootloader-id=PardusTheArchean",
         "--recheck",
+        "--removable",
     ]
     
     try:
