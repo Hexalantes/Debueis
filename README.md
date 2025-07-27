@@ -14,6 +14,10 @@ liveuser password is zen
 - Additional packages (LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8) are added back.
 - Simple shell-based AUR helper and Pacman wrapper XPM (XPM is not a Package Manager) added. (Type "xpm help" or "xpm -h" for help.)
 - Added a local repo named "Abyss".
+- BIOS/UEFI GRUB issue fixed.
+- Firefox removed. Added Chromium instead.
+- Logo changed to TÜBİTAK's one.
+- There is a new wallpaper.
 
 # Build Tips
   - You should create a local repo for building iso, here is the instructions:
@@ -34,16 +38,6 @@ liveuser password is zen
       
         - run "rm -rf work" as root (sudo or doas)
         
-      
-# Known Issues
-Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
-Legacy BIOS/CSM installation instructions are below here.
-  - delete "- grubcfg" and "- bootloader" from /etc/calamares/settings.conf.
-  - install the system normally.
-  - mount your hard drive to /mnt (sudo mount /dev/sdX /mnt) (replace /dev/sdX with your drive, e.g. /dev/sda).
-  - chroot to your hard drive (sudo arch-chroot /mnt).
-  - run "grub-install /dev/sdX" (replace /dev/sdX with your drive, e.g. /dev/sda).
-  - run "grub-mkconfig -o /boot/grub/grub.cfg
 
 # License
 
