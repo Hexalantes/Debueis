@@ -17,14 +17,14 @@ liveuser password is zen
 
 # Build Tips
   -You should create a local repo for building iso, here is the instructions:
-    -run "repo-add airootfs/var/lib/pacman/abyss/x86_64/abyss.db.tar.zst airootfs/var/lib/pacman/abyss/x86_64/*.tar.zst" when you are in releng directory
-      -when you run "git clone https://github.com/hexalantes/pardusthearchean && cd pardusthearchean", pardusthearchean is releng directory, get inside 
-    -then copy the repo directory to /var/lib/pacman/
-      -run "cp -r airootfs/var/lib/pacman/abyss /var/lib/pacman/abyss" as root (sudo or doas) when you are in releng directory
-    -now you can build iso with running "mkarchiso -v ." as root (sudo or doas)
-      -iso file will be in "out" directory
-      -you can delete "work" directory after building the iso
-        -run "rm -rf work" as root (sudo or doas)
+    run "repo-add airootfs/var/lib/pacman/abyss/x86_64/abyss.db.tar.zst airootfs/var/lib/pacman/abyss/x86_64/*.tar.zst" when you are in releng directory
+      when you run "git clone https://github.com/hexalantes/pardusthearchean && cd pardusthearchean", pardusthearchean is releng directory, get inside 
+    then copy the repo directory to /var/lib/pacman/
+      run "cp -r airootfs/var/lib/pacman/abyss /var/lib/pacman/abyss" as root (sudo or doas) when you are in releng directory
+    now you can build iso with running "mkarchiso -v ." as root (sudo or doas)
+      iso file will be in "out" directory
+      you can delete "work" directory after building the iso
+        run "rm -rf work" as root (sudo or doas)
       
 # Known Issues
 Automated Install can not install and configure bootloader on Legacy BIOS/CSM, you should do it manually.
