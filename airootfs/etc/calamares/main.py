@@ -15,21 +15,26 @@ def run():
         return install_grub_bios()
 
 def install_grub_uefi(efi_directory):
+    # config'den değerleri al
+    cfg = libcalamares.job.configuration
+    grub_install = cfg.get("grubInstall", "grub-install")
+    grub_id = cfg.get("bootloaderEntryName", "CalamaresBoot").replace(" ", "")
+    fallback = cfg.get("installEFIFallback", False)
+
     root_mount = libcalamares.globalstorage.value("rootMountPoint")
     efi_mount = os.path.join(root_mount, efi_directory.lstrip("/"))
-
-    if not os.path.exists(efi_mount):
-        os.makedirs(efi_mount)
+    os.makedirs(efi_mount, exist_ok=True)
 
     cmd = [
-        "grub-install",
+        grub_install,
         "--target=x86_64-efi",
         f"--efi-directory={efi_mount}",
-        "--bootloader-id=PardusTheArchean",
+        f"--bootloader-id={grub_id}",
         "--recheck",
-        "--no-nvram",
-        "--removable"
     ]
+
+    if fallback:
+        cmd.append("--removable")
 
     try:
         check_target_env_call(cmd)
@@ -39,8 +44,10 @@ def install_grub_uefi(efi_directory):
     return generate_grub_cfg()
 
 def install_grub_bios():
-    device = libcalamares.globalstorage.value("bootLoaderInstallPath")
+    cfg = libcalamares.job.configuration
+    grub_install = cfg.get("grubInstall", "grub-install")
 
+    device = libcalamares.globalstorage.value("bootLoaderInstallPath")
     if not device:
         root_partition = libcalamares.globalstorage.value("rootPartition")
         if root_partition:
@@ -50,10 +57,10 @@ def install_grub_bios():
             except Exception as e:
                 return ("Disk Detection Error", str(e))
         else:
-            device = "/dev/sda"  # En kötü varsayım
+            device = "/dev/sda"
 
     cmd = [
-        "grub-install",
+        grub_install,
         "--target=i386-pc",
         "--boot-directory=/boot",
         "--recheck",
@@ -68,8 +75,12 @@ def install_grub_bios():
     return generate_grub_cfg()
 
 def generate_grub_cfg():
+    cfg = libcalamares.job.configuration
+    grub_mkconfig = cfg.get("grubMkconfig", "grub-mkconfig")
+    grub_cfg_path = cfg.get("grubCfg", "/boot/grub/grub.cfg")
+
     try:
-        check_target_env_call(["grub-mkconfig", "-o", "/boot/grub/grub.cfg"])
+        check_target_env_call([grub_mkconfig, "-o", grub_cfg_path])
     except subprocess.CalledProcessError as e:
         return ("GRUB Config Error", str(e))
 
