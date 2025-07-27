@@ -28,7 +28,7 @@ def install_grub_uefi(efi_directory):
         grub_install,
         "--target=x86_64-efi",
         f"--efi-directory=/boot/efi",
-        f"--bootloader-id={grub_id}",
+        f"--bootloader-id=PardusTheArchean",
         "--recheck",
     ]
     
