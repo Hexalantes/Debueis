@@ -27,7 +27,7 @@ def install_grub_uefi(efi_directory):
     cmd = [
         grub_install,
         "--target=x86_64-efi",
-        f"--efi-directory={efi_mount}",
+        f"--efi-directory=/boot/efi",
         f"--bootloader-id={grub_id}",
         "--recheck",
     ]
