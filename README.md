@@ -8,7 +8,7 @@ This project is currently in Beta phase and intended for testing purposes only. 
 This is a PERSONAL and UNOFFICIAL project, aimed at recreating a Pardus-like system based on Arch Linux for educational and experimental purposes.
 
 Special thanks to the Arch Linux community for providing the archiso tools used in this project.
-liveuser password is zen
+liveuser password is pardus
 
 # Release Notes
 - Additional packages (LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8) are added back.
@@ -18,6 +18,7 @@ liveuser password is zen
 - Firefox removed. Added Chromium instead.
 - Logo changed to TÜBİTAK's one.
 - There is a new wallpaper.
+- liveuser password changed back to pardus.
 
 # Build Tips
   - You should create a local repo for building iso, here is the instructions:
