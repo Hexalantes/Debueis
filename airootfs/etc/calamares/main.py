@@ -15,7 +15,6 @@ def run():
         return install_grub_bios()
 
 def install_grub_uefi(efi_directory):
-    # config'den değerleri al
     cfg = libcalamares.job.configuration
     grub_install = cfg.get("grubInstall", "grub-install")
     grub_id = cfg.get("bootloaderEntryName", "CalamaresBoot").replace(" ", "")
@@ -32,10 +31,7 @@ def install_grub_uefi(efi_directory):
         f"--bootloader-id={grub_id}",
         "--recheck",
     ]
-
-    if fallback:
-        cmd.append("--removable")
-
+    
     try:
         check_target_env_call(cmd)
     except subprocess.CalledProcessError as e:
