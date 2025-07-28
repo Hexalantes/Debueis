@@ -11,7 +11,7 @@ Special thanks to the Arch Linux community for providing the archiso tools used 
 liveuser password is pardus
 
 # Release Notes
-- Additional packages (LibreOffice, VLC Media Player, Okular and Java Runtime Environment 8) are added back.
+- Additional packages (LibreOffice, VLC Media Player and Java Runtime Environment 8) are added back.
 - Simple shell-based AUR helper and Pacman wrapper XPM (XPM is not a Package Manager) added. (Type "xpm help" or "xpm -h" for help.)
 - Added a local repo named "Abyss".
 - BIOS/UEFI GRUB issue fixed.
