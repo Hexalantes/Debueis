@@ -205,7 +205,6 @@ xorg-xinit
 xorg-xrandr
 xorg-xinput
 calamares-git
-xpm
 ckbcomp
 neofetch-git
 pulseaudio
