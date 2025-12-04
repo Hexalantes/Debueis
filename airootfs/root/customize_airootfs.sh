@@ -15,7 +15,7 @@ Type=Application
 Version=rolling
 Name=Install Debueis Linux
 GenericName=Debueis Linux Installer
-Keywords=pardus;system;installer;
+Keywords=debueis;system;installer;
 TryExec=calamares
 Exec=pkexec calamares
 Comment=Calamares — Debueis Linux Installer
@@ -59,6 +59,8 @@ Icon=debueis-logo
 Terminal=false
 X-GNOME-Autostart-enabled=true
 EOF
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 chown root:root /usr/share/xsessions/plasma.desktop
 chown -R liveuser:liveuser /home/liveuser/.config
