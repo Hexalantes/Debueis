@@ -1,5 +1,5 @@
 NAME="Debueis Linux"
-PRETTY_NAME="PaDebueis Linux"
+PRETTY_NAME="Debueis Linux"
 ID=debueis
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
@@ -9,4 +9,5 @@ SUPPORT_URL="https://bbs.archlinux.org/"
 BUG_REPORT_URL="https://github.com/hexalantes/debueis/"
 PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
 LOGO=debueis-logo
+
 
