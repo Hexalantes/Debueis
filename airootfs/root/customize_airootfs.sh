@@ -3,7 +3,7 @@
 ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
 useradd -m liveuser
-echo "liveuser:pardus" | chpasswd
+echo "liveuser:debueis" | chpasswd
 
 echo "liveuser ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/liveuser
 chmod 440 /etc/sudoers.d/liveuser
@@ -12,14 +12,14 @@ mkdir -p /home/liveuser/Desktop
 cat <<EOF > /home/liveuser/Desktop/calamares.desktop
 [Desktop Entry]
 Type=Application
-Version=Beta
-Name=Install Pardus The Archean
-GenericName=Pardus The Archean Installer
+Version=rolling
+Name=Install Debueis Linux
+GenericName=Debueis Linux Installer
 Keywords=pardus;system;installer;
 TryExec=calamares
 Exec=pkexec calamares
-Comment=Calamares — Pardus The Archean Installer
-Icon=pardus-logo
+Comment=Calamares — Debueis Linux Installer
+Icon=debueis-logo
 Terminal=false
 StartupNotify=true
 Categories=Qt;System;
@@ -44,9 +44,9 @@ systemctl enable NetworkManager
 
 rm -f /etc/lsb-release
 cat <<EOF > /etc/lsb-release
-DISTRIB_ID="Pardus The Archean"
-DISTRIB_RELEASE="Milestone 1"
-DISTRIB_DESCRIPTION="Pardus The Archean Milestone 1"
+DISTRIB_ID="Debueis Linux"
+DISTRIB_RELEASE="rolling"
+DISTRIB_DESCRIPTION="Debueis Linux"
 EOF
 
 mkdir -p /home/liveuser/.config/autostart
@@ -54,8 +54,8 @@ cat <<EOF > /home/liveuser/.config/autostart/calamares.desktop
 [Desktop Entry]
 Type=Application
 Exec=pkexec calamares
-Name=Pardus The Archean Installer
-Icon=pardus-logo
+Name=Debueis Linux Installer
+Icon=debueis-logo
 Terminal=false
 X-GNOME-Autostart-enabled=true
 EOF
