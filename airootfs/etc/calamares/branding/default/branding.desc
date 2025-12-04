@@ -121,17 +121,17 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         Pardus The Archean
-    shortProductName:    Pardus
-    version:             Milestone 1
-    shortVersion:        Beta 4
-    versionedName:       Pardus The Archean Milestone 1
-    shortVersionedName:  Pardus The Archean Beta 4
-    bootloaderEntryName: Pardus The Archean
-    productUrl:          https://github.com/hexalantes/pardusthearchean
+    productName:         Debueis Linux
+    shortProductName:    Debueis
+    version:             rolling
+    shortVersion:        rolling
+    versionedName:       Debueis Linux
+    shortVersionedName:  Debueis Linux
+    bootloaderEntryName: Debueis
+    productUrl:          https://github.com/hexalantes/debueis
     supportUrl:          https://wiki.archlinux.org
-    knownIssuesUrl:      https://github.com/hexalantes/pardusthearchean
-    releaseNotesUrl:     https://github.com/hexalantes/pardusthearchean
+    knownIssuesUrl:      https://github.com/hexalantes/debueis
+    releaseNotesUrl:     https://github.com/hexalantes/debueis
     donateUrl:           https://github.com/hexalantes
 
 # These images are loaded from the branding module directory.
