@@ -205,7 +205,6 @@ xorg-xinit
 xorg-xrandr
 xorg-xinput
 calamares-git
-ckbcomp
 neofetch-git
 pulseaudio
 libreoffice-still
