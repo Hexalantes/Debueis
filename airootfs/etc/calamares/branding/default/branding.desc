@@ -166,7 +166,7 @@ images:
     productIcon:         "logo.png"
     productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "logo.png"
+    productWelcome:      "welcome.png"
 
 # Colors for text and background components.
 #
