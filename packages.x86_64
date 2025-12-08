@@ -186,7 +186,6 @@ solid
 yaml-cpp
 boost
 extra-cmake-modules
-git
 ninja
 qt6-tools
 qt6-translations
@@ -225,6 +224,8 @@ cups
 cups-pdf
 hplip
 ttf-dejavu
+ttf-carlito
+ttf-croscore
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -235,7 +236,6 @@ spectacle
 ark
 bluez
 bluez-utils
-cups
 system-config-printer
 okular
 ttf-firacode-nerd
@@ -298,6 +298,7 @@ faac
 libimobiledevice
 bluez-hid2hci
 timeshift
+timeshift-autosnap
 tlp
 tlp-rdw
 fprintd
@@ -312,3 +313,9 @@ fwupd
 gvfs-nfs
 pavucontrol
 zenity
+xdg-user-dirs
+xdg-user-dirs-update
+plasma-wayland-session
+qt6-wayland
+phonon-qt6
+phonon-qt6-gstreamer
