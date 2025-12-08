@@ -182,8 +182,8 @@ images:
 style:
    SidebarBackground:        "#292F34"
    SidebarText:              "#FFFFFF"
-   SidebarTextCurrent:       "#292F34"
-   SidebarBackgroundCurrent: "#D35400"
+   SidebarTextCurrent:       "#FFFFFF"
+   SidebarBackgroundCurrent: "#292F34"
 
 ### SLIDESHOW
 #
@@ -202,7 +202,7 @@ style:
 # To configure a QML file, list a single filename:
 #   slideshow:               "show.qml"
 # To configure images, like the filenames (here, as an inline list):
-slideshow: [ "/etc/calamares/branding/default/logo.png" ]
+slideshow: [ "/etc/calamares/branding/default/welcome.png" ]
 slideshow:               "show.qml"
 
 # There are two available APIs for a QML slideshow:
