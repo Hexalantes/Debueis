@@ -44,6 +44,7 @@ EOF
 
 systemctl enable sddm
 systemctl enable NetworkManager
+systemctl enable bluetooth.service
 
 rm -f /etc/lsb-release
 cat <<EOF > /etc/lsb-release
