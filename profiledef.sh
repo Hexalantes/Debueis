@@ -3,7 +3,7 @@
 
 iso_name="Debueis Linux"
 iso_label="DEBUEIS"
-iso_publisher="Archean Exercitus <https://github.com/hexalantes>"
+iso_publisher="Hexalantes <https://github.com/hexalantes>"
 iso_application="Debueis Linux Live/Rescue DVD"
 iso_version="rolling"
 install_dir="arch"
