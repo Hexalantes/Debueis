@@ -30,6 +30,9 @@ rm -f /usr/lib/calamares/modules/bootloader/main.py
 mv /etc/calamares/main.py /usr/lib/calamares/modules/bootloader/main.py
 mkdir -p /etc/sddm.conf.d
 
+mv /etc/plasma-welcomerc /home/liveuser/.config/plasma-welcomerc
+chown liveuser /home/liveuser/.config/plasma-welcomerc
+
 cat <<EOF > /etc/sddm.conf.d/autologin.conf
 [Autologin]
 User=liveuser
