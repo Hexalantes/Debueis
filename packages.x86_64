@@ -255,7 +255,6 @@ discover
 packagekit
 packagekit-qt6
 flatpak-kcm
-sddm-theme-chili 
 gst-plugins-base
 gst-plugin-pipewire
 p7zip
@@ -291,8 +290,6 @@ xdg-desktop-portal-gtk
 networkmanager-openconnect
 libdvdcss
 ttf-opensans
-noto-fonts-symbols
-heif
 libheif
 kimageformats
 poppler-qt6
@@ -301,7 +298,6 @@ faac
 libimobiledevice
 bluez-hid2hci
 timeshift
-timeshift-autosnap
 tlp
 tlp-rdw
 fprintd
@@ -309,12 +305,9 @@ libfprint
 gutenprint
 foomatic-db-engine
 foomatic-db
-epson-inkjet-printer-escpr
 unrar
 nftables
 ibus
-ibus-hunspell
-hunspell-tr
 fwupd
 gvfs-nfs
 pavucontrol
