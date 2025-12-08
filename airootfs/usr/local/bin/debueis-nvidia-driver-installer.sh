@@ -44,12 +44,32 @@ fi
     esac
 
     echo "90" ; sleep 0.5
-    echo "# Finalizing..." ; sleep 0.5
-    echo "100"
-) |
-zenity --progress --title="NVIDIA Driver Installer" --percentage=0 --auto-close
+    echo "# Verifying installation..." ; sleep 0.5
 
-zenity --question --title="Completed" --text="Driver installation is complete. Do you want to reboot now?"
-if [ $? -eq 0 ]; then
-    sudo reboot
+    if [[ "$DRIVER" == "nouveau" ]]; then
+        if lsmod | grep -q nouveau; then
+            echo "100"
+            exit 0
+        else
+            echo "100"
+            exit 1
+        fi
+    else
+        if command -v nvidia-smi >/dev/null 2>&1 && nvidia-smi &>/dev/null; then
+            echo "100"
+            exit 0
+        else
+            echo "100"
+            exit 1
+        fi
+    fi
+) | zenity --progress --title="NVIDIA Driver Installer" --percentage=0 --auto-close
+
+if [[ $? -eq 0 ]]; then
+    zenity --question --title="Completed" --text="Driver installation is complete. Do you want to reboot now?"
+    if [ $? -eq 0 ]; then
+        sudo reboot
+    fi
+else
+    zenity --error --title="Installation Failed" --text="Driver installation failed. Check /tmp/nvidia-install.log for details."
 fi
