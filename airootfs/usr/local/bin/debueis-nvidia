@@ -7,9 +7,9 @@ fi
 
 zenity --question --title="System Update" --text="Do you want to fully update the system before installing the driver?"
 if [ $? -eq 0 ]; then
-    pacman -Syu --noconfirm &> /tmp/nvidia-install.log
+    sudo pacman -Syu --noconfirm &> /tmp/nvidia-install.log
 else
-    pacman -Sy --noconfirm &> /tmp/nvidia-install.log
+    sudo pacman -Sy --noconfirm &> /tmp/nvidia-install.log
 fi
 
 DRIVER=$(zenity --list --title="NVIDIA Driver Installer" \
@@ -37,13 +37,13 @@ fi
 
     case $DRIVER in
         "nvidia-dkms")
-            pacman -S --noconfirm nvidia-dkms nvidia-utils nvidia-settings &>> /tmp/nvidia-install.log
+            sudo pacman -S --noconfirm nvidia-dkms nvidia-utils nvidia-settings &>> /tmp/nvidia-install.log
             ;;
         "nvidia")
-            pacman -S --noconfirm nvidia nvidia-utils nvidia-settings &>> /tmp/nvidia-install.log
+            sudo pacman -S --noconfirm nvidia nvidia-utils nvidia-settings &>> /tmp/nvidia-install.log
             ;;
         "nouveau")
-            pacman -S --noconfirm xf86-video-nouveau &>> /tmp/nvidia-install.log
+            sudo pacman -S --noconfirm xf86-video-nouveau &>> /tmp/nvidia-install.log
             ;;
     esac
 
@@ -72,7 +72,7 @@ fi
 if [[ $? -eq 0 ]]; then
     zenity --question --title="Completed" --text="Driver installation is complete. Do you want to reboot now?"
     if [ $? -eq 0 ]; then
-        reboot
+        sudo reboot
     fi
 else
     zenity --error --title="Installation Failed" --text="Driver installation failed. Check /tmp/nvidia-install.log for details."
