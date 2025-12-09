@@ -1,4 +1,4 @@
-# Debueis Linux (Under Construction)
+# Debueis Linux
 
 This is the releng configuration, not a compiled ISO.
 
