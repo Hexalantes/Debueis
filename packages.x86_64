@@ -298,7 +298,6 @@ faac
 libimobiledevice
 bluez-hid2hci
 timeshift
-timeshift-autosnap
 tlp
 tlp-rdw
 fprintd
@@ -314,11 +313,8 @@ gvfs-nfs
 pavucontrol
 zenity
 xdg-user-dirs
-xdg-user-dirs-update
-plasma-wayland-session
 qt6-wayland
 phonon-qt6
-phonon-qt6-gstreamer
 lrzip
 zstd
 cabextract
@@ -331,14 +327,11 @@ openjpeg2
 obs-studio
 kamoso
 klipper
-flatpak-cron
 filezilla
 clamav
 clamtk
-sane-qt
 pdfarranger
 ntfsprogs
-ntfs3-tools
 gvfs-google
 cups-browsed
 softhsm
@@ -347,4 +340,3 @@ breeze-gtk
 cups-pk-helper
 minicom
 lshw
-lshw-gui
