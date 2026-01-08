@@ -77,3 +77,5 @@ chmod 644 /usr/share/xsessions/plasma-x11.desktop
 pacman-key --init
 pacman-key --populate archlinux
 pacman -Sy
+
+rm -rf /etc/skel/*
