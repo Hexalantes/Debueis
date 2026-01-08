@@ -79,3 +79,5 @@ pacman-key --populate archlinux
 pacman -Sy
 
 rm -rf /etc/skel/*
+
+chmod +x /usr/local/bin/dew
