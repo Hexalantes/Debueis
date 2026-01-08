@@ -2,7 +2,7 @@
 
 This is the releng configuration, not a compiled ISO.
 
-This project is rolling release and may not be stable everytime. Use at your own risk.
+This project is a rolling release and may not be stable everytime. Use at your own risk.
 
 Special thanks to the Arch Linux authors and community for providing the archiso tools used in this project.
 liveuser password is debueis
